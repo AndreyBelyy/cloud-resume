@@ -9,7 +9,7 @@ async function updateCounter() {
         }
 
         let data = await response.json();
-        counter.innerHTML = `This page has ${data} Views!`;
+        counter.innerHTML = `This page has ${data} views`;
     } catch (error) {
         console.error("Error:", error);
         // You can add code here to handle the error, such as displaying a message to the user.
